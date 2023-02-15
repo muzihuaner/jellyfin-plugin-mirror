@@ -10,7 +10,7 @@
 
 2021年12月20日大陆CDN网宿断开jsd对国内的连接，目前本仓库将仍保持jsd加速，~~同时新增本人自提供的cdn作为后备保证~~。目前可能没精力维护自己的CDN，如果有CDN厂商或者很精通CDN的API方式调用的大佬可以发dm或者issue寻求合作。
 
-仓库内所有插件版权归各自的作者所有，若有侵犯到您的权益，请[联系我](mailto:LxnChan@Outlook.com)删除。
+仓库内所有插件版权归各自的作者所有，若有侵犯到您的权益，请[联系我](mailto:muzihuaner@hotmail.com)删除。
 
 豆瓣刮削插件同步自[jellyfin-plugin-douban](https://github.com/Libitum/jellyfin-plugin-douban)，所有权利归属于作者所有。截至2022年01月19日该插件尚未更新，保持原有版本不变。
 
@@ -22,13 +22,13 @@
 
 ```plaintxt
 # 指定镜像的Release版本
-https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@{VersionTag}/plugin/manifest-stable-jsd.json
+https://gcore.jsdelivr.net/gh/muzihuaner/jellyfin-plugin-mirror@{VersionTag}/plugin/manifest-stable-jsd.json
 
 # 直接使用latest版本（推荐）
-https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@latest/manifest-stable-jsd.json
+https://gcore.jsdelivr.net/gh/muzihuaner/jellyfin-plugin-mirror@latest/manifest-stable-jsd.json
 ```
 
-> 其中`{VersionTag}`为[Release](https://github.com/LxnChan/jellyfin-plugin-mirror/releases)页面下的Tag版本号，建议使用Latest版本。
+> 其中`{VersionTag}`为[Release](https://github.com/muzihuaner/jellyfin-plugin-mirror/releases)页面下的Tag版本号，建议使用Latest版本。
 
 ## 3. 豆瓣刮削插件
 
@@ -36,14 +36,14 @@ https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@latest/manifest-stabl
 
 ```plaintxt
 # jsDelivr 加速
-https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@{VersionTag}/douban/manifest.json
+https://gcore.jsdelivr.net/gh/muzihuaner/jellyfin-plugin-mirror@{VersionTag}/douban/manifest.json
 ```
 
-> 其中`{VersionTag}`为[Release](https://github.com/LxnChan/jellyfin-plugin-mirror/releases)页面下的Tag版本号，建议使用20210817c版本。
+> 其中`{VersionTag}`为[Release](https://github.com/muzihuaner/jellyfin-plugin-mirror/releases)页面下的Tag版本号，建议使用20210817c版本。
 
 ## 4. 支持我
 
-多访问访问我的blog`https://lxnchan.cn`就行，侧边栏有赞助二维码，感兴趣就扫，不感兴趣随便看看也行。
+多访问访问我的blog`https://blog.quickso.cn`就行，侧边栏有赞助二维码，感兴趣就扫，不感兴趣随便看看也行。
 
 ---
 
